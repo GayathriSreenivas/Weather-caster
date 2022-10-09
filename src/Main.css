@@ -1,0 +1,57 @@
+.Main{
+    display: flex;
+    justify-content: space-around;
+}
+.weather{
+   height : 85vh;
+    width: 28vw;
+    background-color: rgb(170, 134, 162);
+    box-shadow: 5px 5px 15px rgb(0, 0, 0);
+    margin-top: 20px;
+    border-radius: 5%;
+  
+}
+.one, .three{
+    text-align: center;
+
+}
+.one{
+    padding-top: 30px;
+}
+.image{
+    height: 100px;
+    width: 100px;
+}
+.two{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.two1{
+    display: flex;
+    row-gap: 30px;
+}
+.class1 {
+    width : 150px;
+    
+}
+.three{
+    margin-top:20px;
+}
+table{
+    border-collapse: separate;
+    border-spacing: 0 15px;
+}
+.three div *{ 
+    border-radius : 20px;
+    margin-bottom : 20px;
+    width :   200px;
+    padding : 5px;
+}
+.three div input{
+    background-color: rgb(122, 114, 114);
+    color: white;
+}
+::placeholder{
+    color:white;
+}
